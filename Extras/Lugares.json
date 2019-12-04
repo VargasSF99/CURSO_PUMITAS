@@ -1,0 +1,22 @@
+{
+    "data" : [
+        [ 1,"Estacionamineto Tapatio","Escolar D, C.U., Coyoacán, 04510 Coyacán, CDMX" ,19.326546,
+          -99.187806,"Estacionamiento"],
+      [2,"Alberca Olímpica Universitaria","Circuto Escolar 3000, Coyoacán, 04360 Ciudad de México, CDMX",19.330122,-99.184646,"Alberca"],
+      [3,"Tapatio","Escolar D, C.U., Coyoacán, 04510 Coyacán, CDMX",19.326659,-99.186801,"Tapatio"],
+      [4,"Metro Universidad","Av Antonio Delfin Madrigal, C.U., 04510 Ciudad de México, CDMX",19.323768,-99.174903,"Metro"],
+       [5,"Baño para Padres","Se les recuerda que queda prohibida la entrada a los baños internos del Estadio ",19.327241,-99.187580,"Baño"],
+       [6,"Canchas Basketball","Aviso: En caso de llegar tarde al curso en dias de deportes, podrán dejar a sus hijos en las canchas de Basketball ",19.326769,-99.185122,"Basketball"],
+       [7,"Estacionamiento Alberca","Circuto Escolar 3000, Coyoacán, 04360 Ciudad de México, CDMX",19.330201,-99.186037,"Estacionamiento"],
+       [8,"ENTRADA: Gradas Externas","Escolar D, C.U., Coyoacán, 04510 Coyacán, CDMX ",19.326843,-99.187421,"Puerta"],
+       [9,"ENTRADA: Puerta Jugadores","C.U.Coyoacán 04510 Ciudad de México, CDMX",19.327531,-99.186314,"Jugador"],
+        [10,"ENTRADA: Maratón","C.U., Coyoacán, 04510 Ciudad de México, CDMX ",19.326031,-99.186021,"Maratón"],
+        [11,"Bloque A","C.U., Coyoacán, 04510 Ciudad de México, CDMX ",19.327147,-99.186640,"A"],
+        [12,"Bloque B","C.U., Coyoacán, 04510 Ciudad de México, CDMX ",19.326644,-99.186225,"B"],
+        [13,"Bloque C","C.U., Coyoacán, 04510 Ciudad de México, CDMX ",19.325866,-99.186665,"C"]
+      
+]
+}
+
+
+

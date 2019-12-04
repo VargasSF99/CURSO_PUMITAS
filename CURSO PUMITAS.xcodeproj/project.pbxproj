@@ -3,18 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		098056C1F568A9AD83B878AA /* Pods_CURSO_PUMITAS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA95FC2545BA12765EE6391 /* Pods_CURSO_PUMITAS.framework */; };
+		188FDE0D238CCAAD002009EE /* Ayudas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FDE0C238CCAAD002009EE /* Ayudas.swift */; };
+		188FDE12238CF92B002009EE /* TutorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FDE11238CF92B002009EE /* TutorViewController.swift */; };
 		1892A5E7238C6549007E717B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892A5E6238C6549007E717B /* AppDelegate.swift */; };
 		1892A5E9238C6549007E717B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892A5E8238C6549007E717B /* ViewController.swift */; };
 		1892A5EC238C6549007E717B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1892A5EA238C6549007E717B /* Main.storyboard */; };
 		1892A5EE238C654B007E717B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1892A5ED238C654B007E717B /* Assets.xcassets */; };
 		1892A5F1238C654B007E717B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1892A5EF238C654B007E717B /* LaunchScreen.storyboard */; };
+		1892A5F9238C6A20007E717B /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892A5F8238C6A20007E717B /* SingUpViewController.swift */; };
+		1892A5FB238C6A47007E717B /* LongInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892A5FA238C6A47007E717B /* LongInViewController.swift */; };
+		1892A5FD238C6A5D007E717B /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892A5FC238C6A5D007E717B /* InicioViewController.swift */; };
+		1892A5FF238C6F3C007E717B /* Utilidades.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892A5FE238C6F3C007E717B /* Utilidades.swift */; };
+		1892A603238C7C03007E717B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1892A602238C7C03007E717B /* GoogleService-Info.plist */; };
+		189F02862395C0B000CAD352 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 189F02852395C0B000CAD352 /* video2.mp4 */; };
+		189F02882395C8D300CAD352 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F02872395C8D300CAD352 /* AViewController.swift */; };
+		189FD2E52394E626006239D7 /* Direcciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FD2E42394E626006239D7 /* Direcciones.swift */; };
+		189FD2E72394E630006239D7 /* Pins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FD2E62394E630006239D7 /* Pins.swift */; };
+		189FD2E92394E663006239D7 /* MapasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FD2E82394E663006239D7 /* MapasViewController.swift */; };
+		189FD2EB2394E85E006239D7 /* Lugares.json in Resources */ = {isa = PBXBuildFile; fileRef = 189FD2EA2394E85E006239D7 /* Lugares.json */; };
+		18A2F52523962A8F00A9AE0E /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2F52423962A8F00A9AE0E /* BViewController.swift */; };
+		18A2F5272396326E00A9AE0E /* CViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2F5262396326E00A9AE0E /* CViewController.swift */; };
+		18A2F52A2397341600A9AE0E /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2F5292397341600A9AE0E /* ColorViewController.swift */; };
+		18A2F5442397342B00A9AE0E /* audio23.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F52C2397342A00A9AE0E /* audio23.ogg */; };
+		18A2F5452397342B00A9AE0E /* audio22.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F52D2397342A00A9AE0E /* audio22.ogg */; };
+		18A2F5462397342B00A9AE0E /* audio20.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F52E2397342A00A9AE0E /* audio20.ogg */; };
+		18A2F5472397342B00A9AE0E /* audio19.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F52F2397342A00A9AE0E /* audio19.ogg */; };
+		18A2F5482397342B00A9AE0E /* audio9.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F5302397342A00A9AE0E /* audio9.ogg */; };
+		18A2F5492397342B00A9AE0E /* audio24.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F5312397342A00A9AE0E /* audio24.ogg */; };
+		18A2F54A2397342B00A9AE0E /* audio8.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F5322397342A00A9AE0E /* audio8.ogg */; };
+		18A2F54B2397342B00A9AE0E /* audio18.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F5332397342A00A9AE0E /* audio18.ogg */; };
+		18A2F54C2397342B00A9AE0E /* audio16.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F5342397342A00A9AE0E /* audio16.ogg */; };
+		18A2F54D2397342B00A9AE0E /* audio6.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F5352397342A00A9AE0E /* audio6.ogg */; };
+		18A2F54E2397342B00A9AE0E /* audio7.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F5362397342A00A9AE0E /* audio7.ogg */; };
+		18A2F54F2397342B00A9AE0E /* audio17.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F5372397342B00A9AE0E /* audio17.ogg */; };
+		18A2F5502397342B00A9AE0E /* audio5.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F5382397342B00A9AE0E /* audio5.ogg */; };
+		18A2F5512397342B00A9AE0E /* audio15.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F5392397342B00A9AE0E /* audio15.ogg */; };
+		18A2F5522397342B00A9AE0E /* audio14.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F53A2397342B00A9AE0E /* audio14.ogg */; };
+		18A2F5532397342B00A9AE0E /* audio4.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F53B2397342B00A9AE0E /* audio4.ogg */; };
+		18A2F5542397342B00A9AE0E /* audio10.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F53C2397342B00A9AE0E /* audio10.ogg */; };
+		18A2F5552397342B00A9AE0E /* audio11.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F53D2397342B00A9AE0E /* audio11.ogg */; };
+		18A2F5562397342B00A9AE0E /* audio1.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F53E2397342B00A9AE0E /* audio1.ogg */; };
+		18A2F5572397342B00A9AE0E /* audio13.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F53F2397342B00A9AE0E /* audio13.ogg */; };
+		18A2F5582397342B00A9AE0E /* audio3.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F5402397342B00A9AE0E /* audio3.ogg */; };
+		18A2F5592397342B00A9AE0E /* audio2.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F5412397342B00A9AE0E /* audio2.ogg */; };
+		18A2F55A2397342B00A9AE0E /* audio12.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F5422397342B00A9AE0E /* audio12.ogg */; };
+		18A2F55B2397342B00A9AE0E /* audio211.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 18A2F5432397342B00A9AE0E /* audio211.ogg */; };
+		18B34FC2238F2E5B0043657C /* CeldaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B34FC0238F2E5A0043657C /* CeldaTableViewCell.swift */; };
+		18B34FC3238F2E5B0043657C /* CeldaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B34FC1238F2E5B0043657C /* CeldaTableViewCell.xib */; };
+		18D228E823937A29007F35B0 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D228E723937A29007F35B0 /* Constantes.swift */; };
+		18D228EA239390B7007F35B0 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D228E9239390B7007F35B0 /* TodoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		188FDE0C238CCAAD002009EE /* Ayudas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ayudas.swift; sourceTree = "<group>"; };
+		188FDE11238CF92B002009EE /* TutorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorViewController.swift; sourceTree = "<group>"; };
 		1892A5E3238C6549007E717B /* CURSO PUMITAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CURSO PUMITAS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1892A5E6238C6549007E717B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1892A5E8238C6549007E717B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +69,51 @@
 		1892A5ED238C654B007E717B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1892A5F0238C654B007E717B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1892A5F2238C654B007E717B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1892A5F8238C6A20007E717B /* SingUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
+		1892A5FA238C6A47007E717B /* LongInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongInViewController.swift; sourceTree = "<group>"; };
+		1892A5FC238C6A5D007E717B /* InicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
+		1892A5FE238C6F3C007E717B /* Utilidades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilidades.swift; sourceTree = "<group>"; };
+		1892A602238C7C03007E717B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		189F02852395C0B000CAD352 /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
+		189F02872395C8D300CAD352 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		189FD2E42394E626006239D7 /* Direcciones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direcciones.swift; sourceTree = "<group>"; };
+		189FD2E62394E630006239D7 /* Pins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pins.swift; sourceTree = "<group>"; };
+		189FD2E82394E663006239D7 /* MapasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapasViewController.swift; sourceTree = "<group>"; };
+		189FD2EA2394E85E006239D7 /* Lugares.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Lugares.json; sourceTree = "<group>"; };
+		18A2F52423962A8F00A9AE0E /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
+		18A2F5262396326E00A9AE0E /* CViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CViewController.swift; sourceTree = "<group>"; };
+		18A2F5292397341600A9AE0E /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		18A2F52C2397342A00A9AE0E /* audio23.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio23.ogg; sourceTree = "<group>"; };
+		18A2F52D2397342A00A9AE0E /* audio22.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio22.ogg; sourceTree = "<group>"; };
+		18A2F52E2397342A00A9AE0E /* audio20.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio20.ogg; sourceTree = "<group>"; };
+		18A2F52F2397342A00A9AE0E /* audio19.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio19.ogg; sourceTree = "<group>"; };
+		18A2F5302397342A00A9AE0E /* audio9.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio9.ogg; sourceTree = "<group>"; };
+		18A2F5312397342A00A9AE0E /* audio24.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio24.ogg; sourceTree = "<group>"; };
+		18A2F5322397342A00A9AE0E /* audio8.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio8.ogg; sourceTree = "<group>"; };
+		18A2F5332397342A00A9AE0E /* audio18.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio18.ogg; sourceTree = "<group>"; };
+		18A2F5342397342A00A9AE0E /* audio16.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio16.ogg; sourceTree = "<group>"; };
+		18A2F5352397342A00A9AE0E /* audio6.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio6.ogg; sourceTree = "<group>"; };
+		18A2F5362397342A00A9AE0E /* audio7.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio7.ogg; sourceTree = "<group>"; };
+		18A2F5372397342B00A9AE0E /* audio17.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio17.ogg; sourceTree = "<group>"; };
+		18A2F5382397342B00A9AE0E /* audio5.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio5.ogg; sourceTree = "<group>"; };
+		18A2F5392397342B00A9AE0E /* audio15.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio15.ogg; sourceTree = "<group>"; };
+		18A2F53A2397342B00A9AE0E /* audio14.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio14.ogg; sourceTree = "<group>"; };
+		18A2F53B2397342B00A9AE0E /* audio4.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio4.ogg; sourceTree = "<group>"; };
+		18A2F53C2397342B00A9AE0E /* audio10.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio10.ogg; sourceTree = "<group>"; };
+		18A2F53D2397342B00A9AE0E /* audio11.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio11.ogg; sourceTree = "<group>"; };
+		18A2F53E2397342B00A9AE0E /* audio1.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio1.ogg; sourceTree = "<group>"; };
+		18A2F53F2397342B00A9AE0E /* audio13.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio13.ogg; sourceTree = "<group>"; };
+		18A2F5402397342B00A9AE0E /* audio3.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio3.ogg; sourceTree = "<group>"; };
+		18A2F5412397342B00A9AE0E /* audio2.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio2.ogg; sourceTree = "<group>"; };
+		18A2F5422397342B00A9AE0E /* audio12.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio12.ogg; sourceTree = "<group>"; };
+		18A2F5432397342B00A9AE0E /* audio211.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio211.ogg; sourceTree = "<group>"; };
+		18B34FC0238F2E5A0043657C /* CeldaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaTableViewCell.swift; sourceTree = "<group>"; };
+		18B34FC1238F2E5B0043657C /* CeldaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CeldaTableViewCell.xib; sourceTree = "<group>"; };
+		18D228E723937A29007F35B0 /* Constantes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		18D228E9239390B7007F35B0 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+		995CCC5388FDEA748216A772 /* Pods-CURSO PUMITAS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CURSO PUMITAS.debug.xcconfig"; path = "Target Support Files/Pods-CURSO PUMITAS/Pods-CURSO PUMITAS.debug.xcconfig"; sourceTree = "<group>"; };
+		9BD1E7D297F372EC2918B13B /* Pods-CURSO PUMITAS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CURSO PUMITAS.release.xcconfig"; path = "Target Support Files/Pods-CURSO PUMITAS/Pods-CURSO PUMITAS.release.xcconfig"; sourceTree = "<group>"; };
+		9EA95FC2545BA12765EE6391 /* Pods_CURSO_PUMITAS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CURSO_PUMITAS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +121,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				098056C1F568A9AD83B878AA /* Pods_CURSO_PUMITAS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		188FDE0F238CF518002009EE /* Mapas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mapas;
+			sourceTree = "<group>";
+		};
+		188FDE10238CF536002009EE /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				1892A5FE238C6F3C007E717B /* Utilidades.swift */,
+				188FDE0C238CCAAD002009EE /* Ayudas.swift */,
+				18D228E723937A29007F35B0 /* Constantes.swift */,
+				189FD2E42394E626006239D7 /* Direcciones.swift */,
+				189FD2E62394E630006239D7 /* Pins.swift */,
+				18B34FC1238F2E5B0043657C /* CeldaTableViewCell.xib */,
+				18B34FC0238F2E5A0043657C /* CeldaTableViewCell.swift */,
+				189FD2EA2394E85E006239D7 /* Lugares.json */,
+				189F02852395C0B000CAD352 /* video2.mp4 */,
+				18A2F52B2397342A00A9AE0E /* Audios */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
 		1892A5DA238C6549007E717B = {
 			isa = PBXGroup;
 			children = (
+				188FDE10238CF536002009EE /* Extras */,
 				1892A5E5238C6549007E717B /* CURSO PUMITAS */,
 				1892A5E4238C6549007E717B /* Products */,
+				DEBEF657534A5FC48BB44A10 /* Pods */,
+				83AC00EE61A0069357B0479A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +174,74 @@
 		1892A5E5238C6549007E717B /* CURSO PUMITAS */ = {
 			isa = PBXGroup;
 			children = (
+				188FDE0F238CF518002009EE /* Mapas */,
 				1892A5E6238C6549007E717B /* AppDelegate.swift */,
 				1892A5E8238C6549007E717B /* ViewController.swift */,
+				1892A5F8238C6A20007E717B /* SingUpViewController.swift */,
+				18A2F5292397341600A9AE0E /* ColorViewController.swift */,
+				1892A5FA238C6A47007E717B /* LongInViewController.swift */,
+				1892A5FC238C6A5D007E717B /* InicioViewController.swift */,
+				188FDE11238CF92B002009EE /* TutorViewController.swift */,
+				189FD2E82394E663006239D7 /* MapasViewController.swift */,
+				18D228E9239390B7007F35B0 /* TodoViewController.swift */,
+				189F02872395C8D300CAD352 /* AViewController.swift */,
+				18A2F52423962A8F00A9AE0E /* BViewController.swift */,
+				18A2F5262396326E00A9AE0E /* CViewController.swift */,
 				1892A5EA238C6549007E717B /* Main.storyboard */,
+				1892A602238C7C03007E717B /* GoogleService-Info.plist */,
 				1892A5ED238C654B007E717B /* Assets.xcassets */,
 				1892A5EF238C654B007E717B /* LaunchScreen.storyboard */,
 				1892A5F2238C654B007E717B /* Info.plist */,
 			);
 			path = "CURSO PUMITAS";
+			sourceTree = "<group>";
+		};
+		18A2F52B2397342A00A9AE0E /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				18A2F52C2397342A00A9AE0E /* audio23.ogg */,
+				18A2F52D2397342A00A9AE0E /* audio22.ogg */,
+				18A2F52E2397342A00A9AE0E /* audio20.ogg */,
+				18A2F52F2397342A00A9AE0E /* audio19.ogg */,
+				18A2F5302397342A00A9AE0E /* audio9.ogg */,
+				18A2F5312397342A00A9AE0E /* audio24.ogg */,
+				18A2F5322397342A00A9AE0E /* audio8.ogg */,
+				18A2F5332397342A00A9AE0E /* audio18.ogg */,
+				18A2F5342397342A00A9AE0E /* audio16.ogg */,
+				18A2F5352397342A00A9AE0E /* audio6.ogg */,
+				18A2F5362397342A00A9AE0E /* audio7.ogg */,
+				18A2F5372397342B00A9AE0E /* audio17.ogg */,
+				18A2F5382397342B00A9AE0E /* audio5.ogg */,
+				18A2F5392397342B00A9AE0E /* audio15.ogg */,
+				18A2F53A2397342B00A9AE0E /* audio14.ogg */,
+				18A2F53B2397342B00A9AE0E /* audio4.ogg */,
+				18A2F53C2397342B00A9AE0E /* audio10.ogg */,
+				18A2F53D2397342B00A9AE0E /* audio11.ogg */,
+				18A2F53E2397342B00A9AE0E /* audio1.ogg */,
+				18A2F53F2397342B00A9AE0E /* audio13.ogg */,
+				18A2F5402397342B00A9AE0E /* audio3.ogg */,
+				18A2F5412397342B00A9AE0E /* audio2.ogg */,
+				18A2F5422397342B00A9AE0E /* audio12.ogg */,
+				18A2F5432397342B00A9AE0E /* audio211.ogg */,
+			);
+			path = Audios;
+			sourceTree = "<group>";
+		};
+		83AC00EE61A0069357B0479A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EA95FC2545BA12765EE6391 /* Pods_CURSO_PUMITAS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEBEF657534A5FC48BB44A10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				995CCC5388FDEA748216A772 /* Pods-CURSO PUMITAS.debug.xcconfig */,
+				9BD1E7D297F372EC2918B13B /* Pods-CURSO PUMITAS.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1892A5F5238C654B007E717B /* Build configuration list for PBXNativeTarget "CURSO PUMITAS" */;
 			buildPhases = (
+				4B90482760917ECFCDEC76AB /* [CP] Check Pods Manifest.lock */,
 				1892A5DF238C6549007E717B /* Sources */,
 				1892A5E0238C6549007E717B /* Frameworks */,
 				1892A5E1238C6549007E717B /* Resources */,
+				04A17CE7381450B8A0FFFB6D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,13 +304,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A2F54D2397342B00A9AE0E /* audio6.ogg in Resources */,
+				18A2F5542397342B00A9AE0E /* audio10.ogg in Resources */,
+				18A2F5482397342B00A9AE0E /* audio9.ogg in Resources */,
+				18A2F54E2397342B00A9AE0E /* audio7.ogg in Resources */,
+				18A2F5572397342B00A9AE0E /* audio13.ogg in Resources */,
 				1892A5F1238C654B007E717B /* LaunchScreen.storyboard in Resources */,
+				18A2F5452397342B00A9AE0E /* audio22.ogg in Resources */,
+				18A2F5562397342B00A9AE0E /* audio1.ogg in Resources */,
+				18A2F5522397342B00A9AE0E /* audio14.ogg in Resources */,
+				1892A603238C7C03007E717B /* GoogleService-Info.plist in Resources */,
+				18B34FC3238F2E5B0043657C /* CeldaTableViewCell.xib in Resources */,
+				18A2F5512397342B00A9AE0E /* audio15.ogg in Resources */,
+				18A2F5462397342B00A9AE0E /* audio20.ogg in Resources */,
+				18A2F5492397342B00A9AE0E /* audio24.ogg in Resources */,
+				18A2F5582397342B00A9AE0E /* audio3.ogg in Resources */,
+				189FD2EB2394E85E006239D7 /* Lugares.json in Resources */,
+				18A2F54F2397342B00A9AE0E /* audio17.ogg in Resources */,
+				18A2F55B2397342B00A9AE0E /* audio211.ogg in Resources */,
+				18A2F5472397342B00A9AE0E /* audio19.ogg in Resources */,
+				18A2F5552397342B00A9AE0E /* audio11.ogg in Resources */,
+				18A2F55A2397342B00A9AE0E /* audio12.ogg in Resources */,
+				18A2F5502397342B00A9AE0E /* audio5.ogg in Resources */,
+				18A2F5532397342B00A9AE0E /* audio4.ogg in Resources */,
+				18A2F54A2397342B00A9AE0E /* audio8.ogg in Resources */,
+				189F02862395C0B000CAD352 /* video2.mp4 in Resources */,
+				18A2F5442397342B00A9AE0E /* audio23.ogg in Resources */,
 				1892A5EE238C654B007E717B /* Assets.xcassets in Resources */,
+				18A2F54B2397342B00A9AE0E /* audio18.ogg in Resources */,
+				18A2F5592397342B00A9AE0E /* audio2.ogg in Resources */,
 				1892A5EC238C6549007E717B /* Main.storyboard in Resources */,
+				18A2F54C2397342B00A9AE0E /* audio16.ogg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04A17CE7381450B8A0FFFB6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CURSO PUMITAS/Pods-CURSO PUMITAS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CURSO PUMITAS/Pods-CURSO PUMITAS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CURSO PUMITAS/Pods-CURSO PUMITAS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B90482760917ECFCDEC76AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CURSO PUMITAS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1892A5DF238C6549007E717B /* Sources */ = {
@@ -136,7 +388,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				1892A5E9238C6549007E717B /* ViewController.swift in Sources */,
+				18A2F52523962A8F00A9AE0E /* BViewController.swift in Sources */,
+				18A2F5272396326E00A9AE0E /* CViewController.swift in Sources */,
+				188FDE12238CF92B002009EE /* TutorViewController.swift in Sources */,
+				1892A5F9238C6A20007E717B /* SingUpViewController.swift in Sources */,
 				1892A5E7238C6549007E717B /* AppDelegate.swift in Sources */,
+				189F02882395C8D300CAD352 /* AViewController.swift in Sources */,
+				189FD2E52394E626006239D7 /* Direcciones.swift in Sources */,
+				1892A5FD238C6A5D007E717B /* InicioViewController.swift in Sources */,
+				18D228E823937A29007F35B0 /* Constantes.swift in Sources */,
+				18B34FC2238F2E5B0043657C /* CeldaTableViewCell.swift in Sources */,
+				1892A5FB238C6A47007E717B /* LongInViewController.swift in Sources */,
+				188FDE0D238CCAAD002009EE /* Ayudas.swift in Sources */,
+				18D228EA239390B7007F35B0 /* TodoViewController.swift in Sources */,
+				189FD2E72394E630006239D7 /* Pins.swift in Sources */,
+				1892A5FF238C6F3C007E717B /* Utilidades.swift in Sources */,
+				18A2F52A2397341600A9AE0E /* ColorViewController.swift in Sources */,
+				189FD2E92394E663006239D7 /* MapasViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +548,7 @@
 		};
 		1892A5F6238C654B007E717B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 995CCC5388FDEA748216A772 /* Pods-CURSO PUMITAS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +566,7 @@
 		};
 		1892A5F7238C654B007E717B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BD1E7D297F372EC2918B13B /* Pods-CURSO PUMITAS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
